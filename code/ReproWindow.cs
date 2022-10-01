@@ -17,5 +17,8 @@ public class ReproWindow : Window
 	public void CreateUI()
 	{
 		Canvas = new ReproGraphView( this );
+
+		// dumb but who cares :)
+		var l = new Label( "Click and drag anywhere", Canvas );
 	}
 }
